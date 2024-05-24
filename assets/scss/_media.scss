@@ -3,6 +3,21 @@
 	margin: 0 auto;
 	padding: 0;
 }
+@media (max-width: 1441px) {
+	.main_left_bg img {
+		max-width: 450px;
+	}
+	.main_right_bg img {
+		max-width: 220px;
+	}
+	header .header_block {
+		padding-left: 210px;
+	}
+	.hero .hero_title {
+		position: relative;
+		z-index: 44;
+	}
+}
 @media (max-width: 992px) {
 	.container {
 		max-width: 720px;
