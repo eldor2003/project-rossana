@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- fontawesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Rossana eshop</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <main>
+            <!-- header -->
+            <header class="header" id="header">
+                <div class="container">
+                    <div class="header_block d-flex align-items-center justify-content-between">
+                        <ul class="header_menus d-flex align-items-center">
+                            <!-- <span class="close d-lg-none">
+                                <i class="fs-3 fa-solid fa-xmark"></i>
+                            </span> -->
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Товары</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                        <div class="header_logo">
+                            <a href="#">
+                                <img src="./assets/images/header_logo.svg" alt="">
+                            </a>
+                        </div>
+
+                        <div class="header_right d-flex align-items-center">
+                            <div class="phone_numbers d-flex flex-column ">
+                                <a href="tel:+375331234567">+375 (33) 123-45-67</a>
+                                <a href="tel:+375331234567" class="d-flex align-items-center gap-1">
+                                    <img src="./assets/images/icons/call_icon.svg" alt="">
+                                    <span>Заказать звонок</span>
+                                </a>
+                            </div>
+                            <div class="language-selector">
+                                <button class="language-button">
+                                    <span class="globe-icon">
+                                        <img src="./assets/images/icons/lang_icon.svg" alt="">
+                                    </span>
+                                    <span class="language-code">EN</span>
+                                    <div class="dropdown-icon">
+                                        <img src="./assets/images/icons/lang_arrow.svg" alt="">
+                                    </div>
+                                </button>
+                                <ul class="language-dropdown">
+                                    <li class="language-option" data-lang="en">English</li>
+                                    <li class="language-option" data-lang="ru">Russian</li>
+                                    <!-- Add more languages as needed -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="hero">
+                <div class="container">
+                    <h2 class="hero_title">
+                        <div class="red">Rossana e pappare —</div>
+                        ешь с удовольствием
+                        и со вкусом!
+                    </h2>
+                    <p class="hero_desc">
+                        Инновационные макароны с протеином обладают оптимальным балансом полезных свойств и вкусовых
+                        качеств
+                    </p>
+                    <div class="hero_btn position-relative text-center">
+                        <a href="#">
+                            Подробнее
+                        </a>
+
+                    </div>
+                    <div class="hero_stat_block d-flex justify-content-between  flex-wrap">
+                        <!-- stat_item -->
+                        <div class="stat_item">
+                            <p class="stat_count">100+</p>
+                            <p class="stat_desc">Довольных клиентов</p>
+                        </div>
+                        <div class="stat_item">
+                            <p class="stat_count">12</p>
+                            <p class="stat_desc">Полученных наград</p>
+                        </div>
+                        <div class="stat_item">
+                            <p class="stat_count">15+</p>
+                            <p class="stat_desc">Лет опыта работы</p>
+                        </div>
+                        <div class="stat_item">
+                            <p class="stat_count">4.99</p>
+                            <p class="stat_desc">Средняя оценка экспертов</p>
+                        </div>
+                        <div class="stat_item">
+                            <p class="stat_count">97%</p>
+                            <p class="stat_desc">Положительных отзывов</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="main_left_bg">
+                <img src="./assets/images/hero_left_bg.png" alt="">
+            </div>
+            <div class="main_right_bg">
+                <img src="./assets/images/hero_right_bg.png" alt="">
+            </div>
+        </main>
+
+        <!-- company -->
+        <section class="company">
+            <div class="container">
+                <h1 class="title">О <span class="red">компании</span></h1>
+                <div class="company_block">
+                    <div class="company_img">
+                        <img src="./assets/images/company_img.png" alt="">
+                    </div>
+                    <div class="company_descriptions d-flex justify-content-between">
+                        <p>
+                            ООО МиК работает только с мукой из твердой пшеницы высшего сорта , согласно итальянской
+                            технологии на бронзовых итальянских фильерах. Используется только мука и вода из
+                            артезианской скважины 126 метром. Продукция содержит только натуральные ингредиенты (чернила
+                            каракатицы, томаты, шпинат, растительный белок)
+                        </p>
+                        <p>
+                            Протеиновые макароны- это здоровое питание на основе натуральных продуктов с растительными
+                            ингредиентами от компании Cosucra Croupe Warocoing. Товар нашего бренда делает жизни людей
+                            ярче и интереснее, неся пользу уму и телу. Уникальный обогащенный состав продукта заботится
+                            о здоровье потребителя.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- catalog  -->
+        <section class="catalog">
+            <div class="container">
+                <h1 class="title"><span class="red">Каталог товаров</span> CONCHIGLIE</h1>
+                <div class="catalog_block d-flex flex-wrap justify-content-between">
+                    <!-- catalog_item -->
+                    <div class="catalog_item">
+                        <div class="catalog_img">
+                            <img src="./assets/images/catalog_image.png" alt="">
+                        </div>
+                        <div class="catalog_body">
+                            <p class="catalog_name">CONCHIGLIE с чернилами каракатицы</p>
+                            <p class="catalog_desc">
+                                Они содержат клетчатку, железо, селен, магний. Это питательный продукт, который
+                                способствует
+                                пищеварению, укреплению иммунитета и защите сердца.
+                            </p>
+                            <a href="#" class="catalog_btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <!-- catalog_item -->
+                    <div class="catalog_item">
+                        <div class="catalog_img">
+                            <img src="./assets/images/catalog_image2.png" alt="">
+                        </div>
+                        <div class="catalog_body">
+                            <p class="catalog_name">CONCHIGLIE с натуральными чернилами каракатицы и шпинатом</p>
+                            <p class="catalog_desc">
+                                Данные макароны - инновация в мире кулинарии. Это блюдо, сочетающее в себе уникальный
+                                вкус,
+                                полезные свойства и красивую  цветовую гамму.
+                            </p>
+                            <a href="#" class="catalog_btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <!-- catalog_item -->
+                    <div class="catalog_item">
+                        <div class="catalog_img">
+                            <img src="./assets/images/catalog_image3.png" alt="">
+                        </div>
+                        <div class="catalog_body">
+                            <p class="catalog_name">CONCHIGLIE
+                                со шпинатом</p>
+                            <p class="catalog_desc">
+                                Паста со шпинатом добавляет нежные травяные нотки, обогащает блюдо полезными витаминами
+                                и
+                                минералами.
+                            </p>
+                            <a href="#" class="catalog_btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <!-- catalog_item -->
+                    <div class="catalog_item">
+                        <div class="catalog_img">
+                            <img src="./assets/images/catalog_image.png" alt="">
+                        </div>
+                        <div class="catalog_body">
+                            <p class="catalog_name">CONCHIGLIE с чернилами каракатицы</p>
+                            <p class="catalog_desc">
+                                Они содержат клетчатку, железо, селен, магний. Это питательный продукт, который
+                                способствует
+                                пищеварению, укреплению иммунитета и защите сердца.
+                            </p>
+                            <a href="#" class="catalog_btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <!-- catalog_item -->
+                    <div class="catalog_item">
+                        <div class="catalog_img">
+                            <img src="./assets/images/catalog_image2.png" alt="">
+                        </div>
+                        <div class="catalog_body">
+                            <p class="catalog_name">CONCHIGLIE с натуральными чернилами каракатицы и шпинатом</p>
+                            <p class="catalog_desc">
+                                Данные макароны - инновация в мире кулинарии. Это блюдо, сочетающее в себе уникальный
+                                вкус,
+                                полезные свойства и красивую  цветовую гамму.
+                            </p>
+                            <a href="#" class="catalog_btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <!-- catalog_item -->
+                    <div class="catalog_item">
+                        <div class="catalog_img">
+                            <img src="./assets/images/catalog_image3.png" alt="">
+                        </div>
+                        <div class="catalog_body">
+                            <p class="catalog_name">CONCHIGLIE
+                                со шпинатом</p>
+                            <p class="catalog_desc">
+                                Паста со шпинатом добавляет нежные травяные нотки, обогащает блюдо полезными витаминами
+                                и
+                                минералами.
+                            </p>
+                            <a href="#" class="catalog_btn">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- production -->
+        <section class="production">
+            <div class="container">
+                <h1 class="title"><span class="red">Преимущества</span> нашей продукции</h1>
+                <div class="production_block d-flex align-items-center justify-content-between">
+                    <!-- production_item -->
+                    <div class="production_item">
+                        <div class="production_img">
+                            <img src="./assets/images/icons/production1.svg" alt="">
+                        </div>
+                        <p class="production_name">
+                            Мука твердой высшего сорта
+                        </p>
+                    </div>
+                    <!-- production_item -->
+                    <div class="production_item">
+                        <div class="production_img">
+                            <img src="./assets/images/icons/production2.svg" alt="">
+                        </div>
+                        <p class="production_name">
+                            Растительный белок Pisane из Бельгии
+                        </p>
+                    </div>
+                    <!-- production_item -->
+                    <div class="production_item">
+                        <div class="production_img">
+                            <img src="./assets/images/icons/production3.svg" alt="">
+                        </div>
+                        <p class="production_name">
+                            Вода из артезианской скважины
+                        </p>
+                    </div>
+                    <!-- production_item -->
+                    <div class="production_item">
+                        <div class="production_img">
+                            <img src="./assets/images/icons/production4.svg" alt="">
+                        </div>
+                        <p class="production_name">
+                            Натуральные ингредиенты
+                        </p>
+                    </div>
+                </div>
+                <div class="red_shape"></div>
+            </div>
+        </section>
+
+        <!-- studies -->
+        <section class="studies">
+            <div class="container">
+                <h2 class="study_title">
+                    Подтвержденные клинические исследования одобренное регламентом Европейского Парламента и Совета ЕС
+                    заявление о полезности для здоровья
+                </h2>
+                <div class="study_block d-flex flex-wrap justify-content-between">
+                    <!-- study_item -->
+                    <div class="study_item">
+                        <div class="study_icon">
+                            <img src="./assets/images/icons/advantage_true.svg" alt="">
+                        </div>
+                        <p class="study_text">
+                            Белок способствует росту мышечной массы
+                        </p>
+                    </div>
+                    <!-- study_item -->
+                    <div class="study_item">
+                        <div class="study_icon">
+                            <img src="./assets/images/icons/advantage_true.svg" alt="">
+                        </div>
+                        <p class="study_text">
+                            Положительно влияет на сохранение прочности костной системы
+                        </p>
+                    </div>
+                    <!-- study_item -->
+                    <div class="study_item">
+                        <div class="study_icon">
+                            <img src="./assets/images/icons/advantage_true.svg" alt="">
+                        </div>
+                        <p class="study_text">
+                            Способствует поддержанию здорового состояния мускулатуры
+                        </p>
+                    </div>
+                    <!-- study_item -->
+                    <div class="study_item">
+                        <div class="study_icon">
+                            <img src="./assets/images/icons/advantage_true.svg" alt="">
+                        </div>
+                        <p class="study_text">
+                            Помогают увеличить содержание белка в пище
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- protein -->
+        <section class="protein">
+            <div class="container">
+                <h1 class="title"><span class="red">Кому подходят </span>протеиновые макароны</h1>
+                <div class="protein_block d-flex flex-wrap">
+                    <div class="protein_item">
+                        <div class="protein_left">
+                            <p class="protein_name">Для вегетарианцев</p>
+                            <div class="protein_descriptions">
+                                <p>
+                                    Протеиновые макароны изготавливаются из натуральных ингредиентов, что делает их
+                                    отличным
+                                    источником растительного белка.
+                                </p>
+                                <p>
+                                    Благодаря своему высокому содержанию белка, протеиновые макароны могут помочь
+                                    вегетарианцам и веганам удовлетворить свои потребности в этом важном питательном
+                                    элементе.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="protein_right">
+                            <div class="pro_img">
+                                <img src="./assets/images/protein1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="protein_item">
+                        <div class="protein_right">
+                            <div class="pro_img">
+                                <img src="./assets/images/protein2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="protein_left">
+                            <p class="protein_name">Для спортсменов</p>
+                            <div class="protein_descriptions">
+                                <p>
+                                    Протеиновые макароны также отлично подходят для спортсменов и людей, ведущих
+                                    активный образ жизни, так как они помогают восстановить мышцы после тренировок и
+                                    обеспечивают долгое чувство сытости.
+                                </p>
+                                <p>
+                                    Благодаря своему низкому гликемическому индексу, они также могут помочь в
+                                    поддержании стабильного уровня сахара в крови.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="protein_item">
+                        <div class="protein_left">
+                            <p class="protein_name">Для вегетарианцев</p>
+                            <div class="protein_descriptions">
+                                <p>
+                                    Отличный выбор для сторонников здорового образа жизни (ЗОЖ). Они содержат больше
+                                    белка и меньше углеводов, что делает их идеальным продуктом для тех, кто следит за
+                                    своим питанием.
+                                </p>
+                                <p>
+                                    Протеиновые макароны помогают удовлетворить потребности организма в этом важном
+                                    питательном элементе, а также способствуют длительному чувству сытости.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="protein_right">
+                            <div class="pro_img">
+                                <img src="./assets/images/protein3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section class="contact">
+            <h1 class="title">Как нас <span class="red">найти</span></h1>
+            <div class="contact_block d-flex align-items-center">
+                <div class="contact_left">
+                    <script type="text/javascript" charset="utf-8" async
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad18b997bb116e86ce2b8c0faaae594075eadb693ebc145c05b35c588c7de4ea0&amp;width=620&amp;height=385&amp;lang=en_FR&amp;scroll=true"></script>
+                </div>
+                <div class="contact_right d-flex flex-column">
+                    <div class="contact_right_item">
+                        <img src="./assets/images/icons/contact_call.svg" alt="">
+                        <p>
+                            Тел.: <a href="tel:84957777777">8(495)777-77-77</a>
+                        </p>
+                    </div>
+                    <div class="contact_right_item">
+                        <img src="./assets/images/icons/contact_mail.svg" alt="">
+                        <p>
+                            Почта: <a href="mailto:mail@mk.ru">mail@mk.ru</a>
+                        </p>
+                    </div>
+                    <div class="contact_right_item">
+                        <img src="./assets/images/icons/contact_location.svg" alt="">
+                        <p>
+
+                            Адрес: <span class="text-decoration-underline">г. Москва, 2-ой Донской проезд д.10, стр.2,
+                                офис 516</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="contact_red_circle"></div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+        </footer>
+
+    </div>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+    <!-- Juqery -->
+    <script src="./assets/libs/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- JS -->
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>
