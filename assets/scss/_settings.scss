@@ -237,3 +237,67 @@ body {
 	line-height: 100%;
 	margin-bottom: 60px;
 }
+
+// breadcrumb
+/* Style the list */
+ul.breadcrumb {
+	list-style: none;
+}
+.breadcrumbs_block {
+	margin-bottom: 55px;
+}
+/* Display list items side by side */
+ul.breadcrumb li {
+	display: inline;
+	color: var(--Background-color-text, #142719);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px; /* 125% */
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li + li:before {
+	padding: 0 6px;
+	color: var(--Background-color-text-2, #2c723d);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px; /* 125% */
+	content: "-";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+	color: var(--Background-color-text-2, #2c723d);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px; /* 125% */
+}
+
+// paginations
+.pagination {
+	display: flex;
+	justify-content: center;
+	padding: 70px 0 50px 0;
+	gap: 20px;
+}
+
+.pagination a {
+	color: var(--Background-color-text, #142719);
+	text-align: center;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20px; /* 117.647% */
+	padding: 10px 15px;
+	text-decoration: none;
+	transition: background-color 0.3s;
+	background: var(--Main-color-text, #e9ffee);
+}
+
+.pagination a.active {
+	background: var(--Color-btn, #519b63);
+	color: white;
+}

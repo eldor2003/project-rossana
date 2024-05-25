@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- fontawesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Rossana eshop</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- header -->
+        <header class="header" id="catalog_header">
+            <div class="container">
+                <div class="header_block d-flex align-items-center justify-content-between">
+                    <ul class="header_menus d-flex align-items-center">
+                        <!-- <span class="close d-lg-none">
+                                <i class="fs-3 fa-solid fa-xmark"></i>
+                            </span> -->
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Товары</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                    <div class="header_logo">
+                        <a href="#">
+                            <img src="./assets/images/header_logo.svg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="header_right d-flex align-items-center">
+                        <div class="phone_numbers d-flex flex-column ">
+                            <a href="tel:+375331234567">+375 (33) 123-45-67</a>
+                            <a href="tel:+375331234567" class="d-flex align-items-center gap-1">
+                                <img src="./assets/images/icons/call_icon.svg" alt="">
+                                <span>Заказать звонок</span>
+                            </a>
+                        </div>
+                        <div class="language-selector">
+                            <button class="language-button">
+                                <span class="globe-icon">
+                                    <img src="./assets/images/icons/lang_icon.svg" alt="">
+                                </span>
+                                <span class="language-code">EN</span>
+                                <div class="dropdown-icon">
+                                    <img src="./assets/images/icons/lang_arrow.svg" alt="">
+                                </div>
+                            </button>
+                            <ul class="language-dropdown">
+                                <li class="language-option" data-lang="en">English</li>
+                                <li class="language-option" data-lang="ru">Russian</li>
+                                <!-- Add more languages as needed -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="breadcrumbs_block">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="#">Главная </a></li>
+                    <li><a href="#">Каталог товаров </a></li>
+                    <li>Страница товара</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- description -->
+        <section class="description">
+            <div class="container">
+                <div class="description_block d-flex justify-content-between">
+                    <div class="description_left d-flex position-relative">
+                        <div class="swiper_prev">
+                            <img src="./assets/images/icons/swiper_prev.svg" alt="">
+                        </div>
+                        <div thumbsSlider="" class="swiper mySwiper">
+
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/icons/swiper_thum_img.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/icons/swiper_thum_img.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/icons/swiper_thum_img.png" />
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <div class="swiper_next">
+                            <img src="./assets/images/icons/swiper_next.svg" alt="">
+                        </div>
+                        <div class="swiper mySwiper2">
+
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/swiper_image.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/swiper_image.png" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/images/swiper_image.png" />
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="description_right">
+                        <h2 class="title text-start"><span class="red">CONCHIGLIE</span> с натуральными чернилами
+                            каракатицы и
+                            шпинатом</h2>
+                        <div class="desc_block d-flex flex-column">
+                            <div class="desc_item">
+                                <p class="desc_name">Форма</p>
+                                <div class="line"></div>
+                                <p class="desc_value">CONCHIGLIE</p>
+                            </div>
+                            <div class="desc_item">
+                                <p class="desc_name">Вес</p>
+                                <div class="line"></div>
+                                <p class="desc_value">450 гр.</p>
+                            </div>
+                            <div class="desc_item">
+                                <p class="desc_name">Вкусовые добавки</p>
+                                <div class="line"></div>
+                                <p class="desc_value">чернила каракатицы, шпинат</p>
+                            </div>
+                            <div class="desc_item">
+                                <p class="desc_name">Вес</p>
+                                <div class="line"></div>
+                                <p class="desc_value">450 гр.</p>
+                            </div>
+                            <div class="desc_item">
+                                <p class="desc_name">Вкусовые добавки</p>
+                                <div class="line"></div>
+                                <p class="desc_value">чернила каракатицы, шпинат</p>
+                            </div>
+                            <div class="desc_btn">
+                                <a href="#" class="all_chars">Все характеристики</a>
+                            </div>
+                        </div>
+                        <div class="desc_bottom d-flex align-items-center">
+                            <div class="counter">
+                                <button id="decrement">-</button>
+                                <span id="value">1</span>
+                                <button id="increment">+</button>
+                            </div>
+                            <p class="total_price"><span class="val">200</span> руб</p>
+                            <a href="#" class="buy_btn">заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_descriptions">
+                    <h5>Описание продукта:</h5>
+                    <p>Откройте для себя вкус Италии с нашими эксклюзивными макаронами CONCHIGLIE, окрашенными
+                        натуральными чернилами каракатицы и шпинатом. Эти макароны не только восхитительно вкусны, но и
+                        являются настоящим украшением стола благодаря своему уникальному цвету. Ингредиенты высшего
+                        качества, собранные в экологически чистых районах, и традиционные методы производства делают
+                        каждое блюдо с этими макаронами незабываемым.
+                    </p>
+                    <h5>Состав:</h5>
+                    <p>вердая пшеничная мука, вода, чернила каракатицы (1%), шпинат порошок (1%), натуральные
+                        ароматизаторы.
+                    </p>
+                    <h5>Пищевая ценность на 100 г:</h5>
+                    <ul>
+                        <li>- Энергетическая ценность: 350 ккал</li>
+                        <li>- Белки: 12 г</li>
+                        <li>- Углеводы: 72 г</li>
+                        <li>- Жиры: 1,5 г</li>
+                        <li>- Пищевые волокна: 3 г</li>
+                        <li>- Натрий: 0,01 г</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- contact -->
+        <section class="contact">
+            <h1 class="title">Как нас <span class="red">найти</span></h1>
+            <div class="contact_block d-flex align-items-center">
+                <div class="contact_left">
+                    <script type="text/javascript" charset="utf-8" async
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad18b997bb116e86ce2b8c0faaae594075eadb693ebc145c05b35c588c7de4ea0&amp;width=620&amp;height=385&amp;lang=en_FR&amp;scroll=true"></script>
+                </div>
+                <div class="contact_right d-flex flex-column">
+                    <div class="contact_right_item">
+                        <img src="./assets/images/icons/contact_call.svg" alt="">
+                        <p>
+                            Тел.: <a href="tel:84957777777">8(495)777-77-77</a>
+                        </p>
+                    </div>
+                    <div class="contact_right_item">
+                        <img src="./assets/images/icons/contact_mail.svg" alt="">
+                        <p>
+                            Почта: <a href="mailto:mail@mk.ru">mail@mk.ru</a>
+                        </p>
+                    </div>
+                    <div class="contact_right_item">
+                        <img src="./assets/images/icons/contact_location.svg" alt="">
+                        <p>
+
+                            Адрес: <span class="text-decoration-underline">г. Москва, 2-ой Донской проезд д.10, стр.2,
+                                офис 516</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="contact_red_circle"></div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="footer_block d-flex justify-content-between">
+                    <div class="footer_left">
+                        <div class="footer_top d-flex ">
+                            <div class="footer_top_left">
+                                <div class="footer_logo">
+                                    <a href="#">
+                                        <img src="./assets/images/header_logo.svg" alt="">
+                                    </a>
+                                </div>
+                                <div class="footer_social_block d-flex align-items-center">
+                                    <a href="#" class="social_item">
+                                        <img src="./assets/images/icons/wikipedia.svg" alt="">
+                                    </a>
+                                    <a href="#" class="social_item">
+                                        <img src="./assets/images/icons/telegram.svg" alt="">
+                                    </a>
+                                    <a href="#" class="social_item">
+                                        <img src="./assets/images/icons/whatsapp.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <ul class="footer_top_right d-flex flex-column">
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Товары</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <p class="footer_bottom">© 2018-2024 ООО "МК" <br>
+                            ИНН 7725497865, ОГРН 1187746842106
+                        </p>
+                    </div>
+                    <div class="footer_right">
+                        <p class="form_title">Вам перезвонить?</p>
+                        <form action="" class="footer_form">
+                            <input type="text" name="name" placeholder="Имя:">
+                            <input type="tel" name="phone" placeholder="Телефон:">
+                            <input type="email" name="email" placeholder="Email:">
+                            <textarea name="" id="" placeholder="Сообщение"></textarea>
+                            <a href="#" class="form_rule">Отправляя данную форму, вы соглашаетесь c Политикой
+                                конфиденциальности</a>
+                            <button type="submit" class="form_btn">
+                                <img src="./assets/images/icons/footer_call.svg" alt="">
+                                <span>заказать звонок</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+    <!-- Juqery -->
+    <script src="./assets/libs/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- JS -->
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>

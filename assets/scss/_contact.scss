@@ -1,0 +1,29 @@
+.address {
+	.contact_right {
+		gap: 23px;
+		flex-wrap: wrap;
+	}
+	.address_block {
+		margin-bottom: 50px;
+	}
+	.contact_right_item {
+		display: flex;
+		gap: 5px;
+		align-items: center;
+		&:last-child {
+			flex: 1;
+		}
+		p {
+			color: var(--Accent-color-text, var(--button, #000));
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 30px; /* 150% */
+			a {
+				color: var(--Accent-color-text, var(--button, #000));
+				font-size: 20px;
+				text-decoration: underline;
+			}
+		}
+	}
+}

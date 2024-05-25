@@ -1,0 +1,40 @@
+.breadcrumbs_block#company {
+	margin-bottom: 40px;
+}
+.kompany {
+	margin-bottom: 60px;
+
+	.title {
+		margin-bottom: 30px;
+	}
+	.company_desc {
+		color: var(--Background-color-text, #142719);
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px; /* 125% */
+		margin-bottom: 40px;
+	}
+	.company_descriptions {
+		h2 {
+			color: var(--Background-color-text-2, #2c723d);
+			font-family: "Oswald";
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 121%; /* 24.2px */
+			margin-bottom: 20px;
+		}
+		p {
+			color: var(--Background-color-text, #142719);
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 20px; /* 125% */
+			margin-bottom: 40px;
+		}
+		img {
+			margin-bottom: 40px;
+		}
+	}
+}

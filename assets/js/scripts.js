@@ -44,4 +44,52 @@ $(document).ready(function () {
 		// Redirect to the new URL
 		window.location.href = newUrl;
 	}
+
+	// swiper
+	var swiper = new Swiper(".mySwiper", {
+		direction: "vertical",
+		slidesPerView: 3,
+		freeMode: true,
+		watchSlidesProgress: true,
+	});
+	var swiper2 = new Swiper(".mySwiper2", {
+		spaceBetween: 10,
+		navigation: {
+			nextEl: ".swiper_next",
+			prevEl: ".swiper_prev",
+		},
+		thumbs: {
+			swiper: swiper,
+		},
+	});
+
+	// characteristics
+	$(".all_chars").on("click", function (e) {
+		$(".description .desc_item").addClass("active");
+		$(this).slideUp(200);
+	});
+
+	// product calculator
+	let pricePerUnit = parseFloat($(".total_price").text()); // Base price per unit
+	let value = 1;
+
+	function updatePrice() {
+		$(".total_price").text(pricePerUnit * value + " руб");
+	}
+
+	$("#decrement").click(function () {
+		if (value > 1) {
+			value--;
+			$("#value").text(value);
+			updatePrice();
+		}
+	});
+
+	$("#increment").click(function () {
+		value++;
+		$("#value").text(value);
+		updatePrice();
+	});
+
+	updatePrice(); // Initial price update
 });
