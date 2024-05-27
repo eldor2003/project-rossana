@@ -18,18 +18,293 @@
 		z-index: 44;
 	}
 }
+@media (max-width: 1201px) {
+	.main_left_bg img,
+	.main_right_bg img,
+	.contact .contact_red_circle {
+		display: none;
+	}
+	footer .footer_block {
+		gap: 50px;
+	}
+	footer .footer_form textarea {
+		height: 65px;
+	}
+	footer .footer_top {
+		gap: 60px;
+	}
+}
 @media (max-width: 992px) {
 	.container {
 		max-width: 720px;
+	}
+	.breadcrumbs_block {
+		margin-bottom: 35px;
+	}
+	.address .contact_right {
+		gap: 9px;
+	}
+	.address .contact_right_item p,
+	.address .contact_right_item p a {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.address .contact_right_item {
+		gap: 5px;
+		width: 47%;
+	}
+	.description .description_left,
+	.description .description_right {
+		width: 100%;
+	}
+	.description .description_block {
+		margin-bottom: 70px;
+		gap: 50px 0;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	header .header_block {
+		padding-left: 0;
+	}
+	header .header_block {
+		padding-left: 0;
+		flex-wrap: wrap;
+	}
+	.company_img img {
+		width: 100%;
+	}
+	.contact .contact_block {
+		padding: 20px 0;
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+	}
+	.company .company_descriptions {
+		gap: 15px;
+		flex-direction: column;
+	}
+	.catalog .catalog_item {
+		width: 48%;
+	}
+	.production .red_shape {
+		display: none;
+	}
+	.protein .protein_item {
+		flex-wrap: wrap;
+		gap: 15px;
 	}
 }
 @media (max-width: 768px) {
 	.container {
 		max-width: 540px;
 	}
+	.production_block {
+		flex-wrap: wrap;
+		gap: 20px;
+		justify-content: space-between;
+	}
+	footer .footer_block {
+		gap: 50px;
+		flex-direction: column-reverse;
+	}
+	footer .footer_top {
+		justify-content: center;
+	}
+	.production .production_item {
+		width: 47%;
+	}
+	.hero .hero_stat_block {
+		padding: 0;
+		gap: 15px;
+	}
+	.hero .stat_item {
+		flex: 0 0 auto;
+		width: auto;
+	}
 }
 @media (max-width: 576px) {
 	.container {
 		max-width: 100%;
+		padding: 0 20px;
+	}
+	footer .footer_form input {
+		width: 100%;
+		height: 25px;
+	}
+	.kompany .company_desc {
+		font-size: 15px;
+		margin-bottom: 20px;
+	}
+	.kompany .company_descriptions h2 {
+		margin-bottom: 10px;
+	}
+	.address .contact_right_item {
+		gap: 5px;
+		width: 100%;
+	}
+	.kompany .company_descriptions p {
+		margin-bottom: 20px;
+	}
+	.catalog .catalog_desc {
+		min-height: 100px;
+	}
+	.kompany .company_descriptions img {
+		margin-bottom: 20px;
+	}
+	.kompany {
+		margin-bottom: 50px;
+	}
+	.pagination {
+		padding: 40px 0 30px 0;
+		gap: 10px;
+	}
+	.catalog_img {
+		text-align: center;
+	}
+	.address .address_block {
+		margin-bottom: 40px;
+	}
+	.protein {
+		margin-bottom: 50px;
+	}
+	.title {
+		font-size: 25px;
+	}
+	.description .mySwiper,
+	.description .swiper_prev,
+	.description .swiper_next {
+		display: none;
+	}
+	.description .desc_block {
+		margin-bottom: 40px;
+	}
+	.description .desc_bottom {
+		gap: 20px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.description .product_descriptions p {
+		font-size: 15px;
+		margin-bottom: 20px;
+	}
+	.description .description_block {
+		margin-bottom: 50px;
+		gap: 30px;
+	}
+	footer {
+		padding: 40px 0 40px 0;
+	}
+	header#catalog_header {
+		margin-bottom: 30px;
+	}
+	.description {
+		margin-bottom: 50px;
+	}
+	header#catalog_header .header_block {
+		padding: 20px 0;
+	}
+	.breadcrumbs_block {
+		margin-bottom: 30px;
+	}
+	.description .product_descriptions ul li {
+		font-size: 15px;
+	}
+	.contact .contact_right_item p,
+	.contact .contact_right_item p a {
+		font-size: 18px;
+	}
+	.contact_left {
+		display: none;
+	}
+	.contact .contact_right {
+		gap: 11px;
+		padding: 20px 20px;
+		justify-content: center;
+		align-items: center;
+	}
+	.protein .protein_descriptions p {
+		font-size: 14px;
+	}
+	.pro_img img {
+		width: 100%;
+	}
+	.header_logo {
+		order: 1;
+	}
+	.production .production_img {
+		margin: 0 auto 20px auto;
+	}
+	.production .production_item {
+		width: 45%;
+	}
+	.studies .study_title {
+		font-size: 21px;
+		line-height: 28px;
+		margin-bottom: 40px;
+	}
+	.hero .stat_item {
+		flex: 0 0 auto;
+		width: 47%;
+	}
+	.production_block {
+		align-items: baseline;
+	}
+	.studies {
+		margin-bottom: 50px;
+		padding: 34px 0 50px 0;
+	}
+	.studies .study_text {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.catalog .catalog_item {
+		width: 100%;
+	}
+	.production .production_name {
+		font-size: 13px;
+		line-height: 16px;
+	}
+	.catalog .catalog_block {
+		gap: 20px 0;
+	}
+	.production {
+		position: relative;
+		padding-bottom: 50px;
+	}
+	header .header_block {
+		gap: 10px;
+		padding: 16px 0 35px 0;
+	}
+	.company_img img {
+		height: 163px;
+		object-fit: cover;
+	}
+	.company {
+		margin-bottom: 50px;
+	}
+	header .header_menus {
+		gap: 30px;
+		order: 2;
+	}
+	header .header_right {
+		order: 3;
+	}
+	.hero .hero_title {
+		font-size: 22px;
+		line-height: 28px;
+		margin-bottom: 25px;
+	}
+	.hero .hero_desc {
+		font-size: 15px;
+		line-height: 20px;
+		margin: 0 auto 30px auto;
+	}
+	.hero .hero_btn {
+		margin-bottom: 80px;
+	}
+	.catalog {
+		margin-bottom: 50px;
 	}
 }
